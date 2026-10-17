@@ -1,32 +1,12 @@
-# React + TypeScript + Vite
+# Student Management - Puseletso Leboto 901020463
+DIWA2210 - Leboto-901020463
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Features: Add, Edit, Delete, Cancel, Search, Dashboard/Table/Card views
+Validation: Name required, Age 16-60, Email format, Course required
+Header.tsx and Footer.tsx components included
+20 Students implemented
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Run: npm install, npm run dev, npm run build
+GitHub: https://github.com/puseletsoleboto775-design/puseletsoleboto-901020463web
+Live Link: Will be added after Vercel deploy
+Student: Puseletso Leboto 901020463
